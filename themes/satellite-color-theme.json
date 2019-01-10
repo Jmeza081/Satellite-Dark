@@ -1,10 +1,10 @@
 {
-	"name": "satellite",
+	"name": "Satellite",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#12f",
+		"editor.background": "#142331",
 		"editor.foreground": "#d4d4d4",
-		"activityBarBadge.background": "#007acc",
+		"activityBarBadge.background": "#E6519D",
 		"sideBarTitle.foreground": "#bbbbbb"
 	},
 	"tokenColors": [
@@ -62,7 +62,7 @@
 				"storage.modifier"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#E6519D"
 			}
 		},
 		{
@@ -157,7 +157,7 @@
 			],
 			"settings": {
 				"fontStyle": "normal",
-				"foreground": "#C3E88D"
+				"foreground": "#92A0AC"
 			}
 		},
 		{
@@ -173,7 +173,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#2B5D7D"
 			}
 		},
 		{
@@ -246,7 +246,7 @@
 				"entity.other.attribute-name"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#E6519D"
 			}
 		},
 		{
@@ -257,7 +257,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#FFCB6B"
+				"foreground": "#2B5D7D"
 			}
 		},
 		{
@@ -266,7 +266,7 @@
 				"entity.other.attribute-name.class"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#2B5D7D"
 			}
 		},
 		{
@@ -284,7 +284,7 @@
 				"markup.inserted"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#92A0AC"
 			}
 		},
 		{
@@ -302,7 +302,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#E6519D"
 			}
 		},
 		{
@@ -361,7 +361,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#E6519D"
 			}
 		},
 		{
@@ -370,7 +370,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#2B5D7D"
 			}
 		},
 		{
@@ -424,7 +424,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#E6519D"
 			}
 		},
 		{
@@ -433,7 +433,7 @@
 				"source.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json meta.structure.dictionary.value.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#92A0AC"
 			}
 		},
 		{
@@ -452,7 +452,7 @@
 				"text.html.markdown markup.inline.raw.markdown"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#E6519D"
 			}
 		},
 		{
@@ -481,7 +481,7 @@
 				"markup.heading.markdown punctuation.definition.heading.markdown"
 			],
 			"settings": {
-				"foreground": "#C3E88D"
+				"foreground": "#92A0AC"
 			}
 		},
 		{
@@ -575,7 +575,7 @@
 				"string.other.link.description.title.markdown"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#E6519D"
 			}
 		},
 		{
@@ -584,7 +584,7 @@
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#FFCB6B"
+				"foreground": "#2B5D7D"
 			}
 		},
 		{
@@ -593,7 +593,7 @@
 				"markup.raw.block"
 			],
 			"settings": {
-				"foreground": "#C792EA"
+				"foreground": "#E6519D"
 			}
 		},
 		{

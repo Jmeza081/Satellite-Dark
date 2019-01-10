@@ -1,7 +1,7 @@
 {
     "name": "satellite",
     "displayName": "satellite",
-    "description": "yet another dark vs code theme",
+    "description": "color",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.30.0"
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "satellite",
+                "label": "Satellite",
                 "uiTheme": "vs-dark",
-                "path": "./themes/satellite-color-theme.json"
+                "path": "./themes/Satellite-color-theme.json"
             }
         ]
     }
