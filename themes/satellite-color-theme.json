@@ -2,32 +2,31 @@
 	"name": "Satellite",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#0E212D",
-		"editor.foreground": "#d4d4d4",
+		"editor.background": "#1A262E",
+		"editor.foreground": "#01C3CC",
 
 		"editorGroupHeader.tabsBackground": "#061a26",
-		"editorGroup.border": "#ff0000",
+		"editorGroup.border": "#171F24",
 
 		"panel.background": "#ff0000",
 
-		"sideBar.background": "#061a26",
+		"sideBar.background": "#121d23",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"sideBar.foreground": "#FFF",
 		"sideBar.dropBackground": "#ff0000",
-		"sideBar.border": "#022032",
 
-		"activityBar.border": "#022032",
 
-		"tab.activeBackground": "#0E212D",
+		"tab.activeBackground": "#14262e",
 
 		"tab.inactiveBackground": "#061a26",
 		"tab.activeBorder": "#ff7676",
 		"statusBar.foreground": "#ffffff",
-		"statusBar.background": "#061a26",
+		"statusBar.background": "#0a9796",
 
 		"settings.headerForeground": "#ff0000",
 
-		"activityBar.background": "#061a26",
+		"activityBar.background": "#121d23",
+		"activityBar.border": "#222C30",
 
 		"menu.background": "#ff0000",
 		"titleBar.activeBackground": "#ff0000",
