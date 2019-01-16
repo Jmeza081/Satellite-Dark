@@ -1,13 +1,30 @@
-# README
-## This is the README for your extension "satellite"
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+<p align="center">
+  <img
+    src="https://user-images.githubusercontent.com/16481834/51220751-28645500-18fc-11e9-8af0-2cc8903fddb9.png"
+    height="100"
+  />
+</p>
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
+<h2 align="center">
+Satellite-Dark
+</h2>
+<p align="center">
+A dark theme for vs code meant to be easy on the eyes.
+</p>
 
-### For more information
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+---
 
-**Enjoy!**
+## Demo
+
+
+## Installation
+
+[Instructions]
+
+## Supported Languages
+
+
+## Contributing
+**ATTN: NOT PUBLISHED YET**
+
+
