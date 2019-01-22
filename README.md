@@ -15,6 +15,9 @@ A dark theme for vs code meant to be easy on the eyes.
 ---
 
 ## Demo
+Current version of working theme. Sample picture is using JS as the base language.
+
+<img width="1552" alt="satellite-dark" src="https://user-images.githubusercontent.com/16481834/51505622-4bd04980-1dad-11e9-8380-8829f0bad60f.png">
 
 
 ## Installation
