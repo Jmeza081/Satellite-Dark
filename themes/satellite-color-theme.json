@@ -41,26 +41,29 @@
 		"editor.background": "#1a262e",
 		"editor.lineHighlightBackground": "#121d23",
 		"editor.lineHighlightBorder": "#121d23",
-		"editorLineNumber.foreground": "#4c6770",
-		"editorLineNumber.activeForeground": "#FFFFFF",
-		"editorCursor.background": "#0a9796",
-		"editorCursor.foreground": "#0a9796",
 		"editor.selectionBackground": "#4c6770a6",
 		"editor.wordHighlightBackground": "#054949d5",
 		"editor.wordHighlightStrongBackground": "#054949d5",
 		"editor.findMatchBackground": "#054949d5",
 		"editor.findMatchHighlightBackground": "#4c6770a6",
+
+		"editorLineNumber.foreground": "#4c6770",
+		"editorLineNumber.activeForeground": "#FFFFFF",
+
+		"editorCursor.background": "#0a9796",
+		"editorCursor.foreground": "#0a9796",
+
 		"editorError.foreground": "#F7677B",
 		"editorInfo.foreground": "#51fc67",
 		"editorWarning.foreground": "#ff0000",
-
-		"welcomePage.buttonBackground": "#121d23",
-		"welcomePage.buttonHoverBackground": "#1f313b",
 
 		"editorWidget.background": "#1a262e",
 		"editorWidget.resizeBorder": "#04b8b2",
 		"editorHoverWidget.background": "#121d23",
 		"editorWidget.border": "#0d171a",
+
+		"welcomePage.buttonBackground": "#121d23",
+		"welcomePage.buttonHoverBackground": "#1f313b",
 
 		"panel.background": "#121d23",
 		"panel.border": "#0d171a",
@@ -73,10 +76,12 @@
 		"statusBar.noFolderBackground": "#121d23",
 
 		"scrollbarSlider.background": "#2d444f",
+
 		"input.background": "#0d171a",
 		"input.foreground": "#FFFFFF",
 		"inputOption.activeBorder": "#0a9796",
 		"input.placeholderForeground": "#4c6770",
+
 		"inputValidation.errorBackground": "#a0514daf",
 		"inputValidation.errorBorder": "#a0514daf",
 		"inputValidation.errorForeground": "#FFFFFF",
@@ -93,17 +98,19 @@
 		"diffEditor.removedTextBackground": "#ff7f7813",
 
 		"button.background": "#0a9796",
+
 		"textLink.foreground": "#FFC157",
 		"textBlockQuote.background": "#ff0000",
+		"textLink.activeForeground": "#ffffff",
 
 		"dropdown.background": "#0d171a",
 		"dropdown.foreground": "#ffffff",
 		"dropdown.listBackground": "#2d444f",
-		"textLink.activeForeground": "#ffffff"
+
 	},
 	"tokenColors": [
 		{
-			"name": "Comment",
+			"name": "Comments",
 			"scope": [
 				"comment",
 				"punctuation.definition.comment"
@@ -117,6 +124,8 @@
 			"name": "Variables",
 			"scope": [
 				"variable",
+				"variable.other",
+                "variable.name",
 				"string constant.other.placeholder"
 			],
 			"settings": {
@@ -124,21 +133,70 @@
 			}
 		},
 		{
-			"name": "Constants",
-			"scope": [
-				"variable.other.constant",
-			],
-			"settings": {
-				"foreground": "#FF7F78"
-			}
+            "name": "Variables - parameters",
+            "scope": [
+				"variable.parameter"
+            ],
+            "settings": {
+                "foreground": "#FF7F78"
+            }
 		},
+		{
+            "name": "Variable - language, punctuation",
+            "scope": [
+                "variable.language",
+                "variable.scss",
+                "variable.less",
+				"variable.styl",
+				"punctuation.definition.variable"
+            ],
+            "settings": {
+                "foreground": "#01C3CC",
+                "fontStyle": "italic"
+            }
+		},
+        {
+            "name": "Variable - constant",
+            "scope": [
+                "variable.other.constant"
+            ],
+            "settings": {
+                "foreground": "#FF7F78",
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Constants",
+            "scope": [
+                "constant",
+                "constant.other",
+                "constant.character"
+            ],
+            "settings": {
+                "foreground": "#FF7F78"
+            }
+        },
+        {
+            "name": "Constants - numeric, support, Property Name",
+            "scope": [
+                "support.type.property-name",
+                "constant.numeric",
+                "support.constant"
+            ],
+            "settings": {
+                "foreground": "#000000"
+            }
+        },
+
+
+
 		{
 			"name": "Colors",
 			"scope": [
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#ffffff"
 			}
 		},
 		{
@@ -213,8 +271,6 @@
 				"support.function",
 				"keyword.other.special-method",
 				"keyword.control.from",
-				"variable.language.super",
-				"variable.language.this",
 				"meta.tag.attributes",
 				"support.class.component",
 				"meta.tag",
@@ -254,7 +310,6 @@
 				"support.variable.property",
 				"constant.character",
 				"constant.escape",
-				"variable.parameter",
 				"keyword.other.unit",
 				"keyword.other"
 			],
