@@ -103,11 +103,6 @@
 	},
 	"tokenColors": [
 		{
-			"settings": {
-				"foreground": "#ff0000"
-			}
-		},
-		{
 			"name": "Comment",
 			"scope": [
 				"comment",
@@ -168,13 +163,14 @@
 			}
 		},
 		{
-			"name": "Operator, Misc",
+			"name": "Operator",
 			"scope": [
 				"keyword.control",
 				"constant.other.color",
 				"punctuation",
-				"meta.tag",
-				"punctuation.definition.tag",
+
+				"entity.other.attribute-name",
+
 				"punctuation.separator.inheritance.php",
 				"punctuation.definition.tag.html",
 				"punctuation.definition.tag.begin.html",
@@ -188,15 +184,15 @@
 			}
 		},
 		{
-			"name": "Tag",
+			"name": "Misc",
 			"scope": [
-				"entity.name.tag",
-				"meta.tag.sgml",
-				"markup.deleted.git_gutter"
+				"punctuation.terminator.statement",
+				"punctuation.separator.comma",
 			],
 			"settings": {
-				"foreground": "#ff0000"
+				"foreground": "#ffffffb7"
 			}
+
 		},
 		{
 			"name": "Braces",
@@ -209,13 +205,21 @@
 			}
 		},
 		{
-			"name": "Function, Special Method",
+			"name": "Function, Special Method, Import From, super, this, meta tag attributes",
 			"scope": [
 				"entity.name.function",
 				"meta.function-call",
 				"variable.function",
 				"support.function",
-				"keyword.other.special-method"
+				"keyword.other.special-method",
+				"keyword.control.from",
+				"variable.language.super",
+				"variable.language.this",
+				"meta.tag.attributes",
+				"support.class.component",
+				"meta.tag",
+				"punctuation.definition.tag",
+
 			],
 			"settings": {
 				"foreground": "#01C3CC"
@@ -243,6 +247,7 @@
 		{
 			"name": "Support, Number, Constant, Function Argument, Tag Attribute, Embedded",
 			"scope": [
+				"variable.other.readwrite.alias",
 				"constant.numeric",
 				"constant.language",
 				"support.constant",
@@ -356,19 +361,10 @@
 			}
 		},
 		{
-			"name": "Attributes",
-			"scope": [
-				"entity.other.attribute-name"
-			],
-			"settings": {
-				"foreground": "#FA588F"
-			}
-		},
-		{
 			"name": "HTML Attributes",
 			"scope": [
 				"text.html.basic entity.other.attribute-name.html",
-				"text.html.basic entity.other.attribute-name"
+				"text.html.basic"
 			],
 			"settings": {
 				"fontStyle": "italic",
@@ -452,7 +448,7 @@
 		{
 			"name": "Decorators",
 			"scope": [
-				"tag.decorator.js entity.name.tag.js",
+				"tag.decorator.js",
 				"tag.decorator.js punctuation.definition.tag.js"
 			],
 			"settings": {
