@@ -2,7 +2,7 @@
 
 <?php
   $age = 100;
-  $name = 'wes';
+  $name = 'satellite-dark';
   $cool = true;
 
 

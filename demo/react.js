@@ -1,9 +1,9 @@
 import { Component } from "React";
 
-class Wow extends Component {
+class satellite extends Component {
   render() {
     return (
-      <div className="wow">
+      <div className="satellite-container">
         <input type="number" />
       </div>
     );

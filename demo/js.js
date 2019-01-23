@@ -1,17 +1,20 @@
+const myImport = require('my-package');
+import myImport from 'my-package';
+
 const hello = 'I am never used';
 
-doesNotExist.nope(`I'm never imported`);
+doesNotExist.nope(`I'm never ${hello}`);
 
 class widget extends React.Component { }
 
-const joe = function () { };
+const someVarFunction = function () { };
 
-const wes = 100;
+const CONSTANT_VALUE = 100;
 
-function wes() {
+function satelliteDark() {
 
 }
 
-const wes = () => { };
+const satelliteDark = () => { };
 
-console.log(joe, wes);
+console.log(someVarFunction, satelliteDark);
