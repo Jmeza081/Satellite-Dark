@@ -1,6 +1,6 @@
 {
-    "name": "satellite",
-    "displayName": "satellite",
+    "name": "satellite-dark",
+    "displayName": "satellite-dark",
     "description": "color",
     "version": "0.0.1",
     "engines": {
@@ -12,9 +12,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Satellite",
+                "label": "Satellite-Dark",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Satellite-color-theme.json"
+                "path": "./themes/Satellite-Dark-color-theme.json"
             }
         ]
     }
